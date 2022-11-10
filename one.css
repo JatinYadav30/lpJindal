@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); /*font-family: 'Kaushan Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');/*font-family: 'Nabla', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /*font-family: 'Righteous', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');/*font-family: 'Fjalla One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');/*font-family: 'Inter', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');/*font-family: 'Acme', sans-serif;*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 4em;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+
+.navlogo{
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-start;
+   
+
+    
+}
+
+.navitems{
+    font-family: 'Fjalla One', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navitems a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/polygon-scatter-haikei\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+
+    padding: 2em 4em;
+}
+
+
+
+.photobox{
+    min-width: 40%;
+    width: 50%;
+    height: fit-content;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
+    clip-path: circle();
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    flex-shrink: 0;
+
+}
+
+.photobox img{
+    max-height: 100%;
+    max-width: 100%;
+    height:50% ;
+    width:40%;
+    clip-path: circle();
+    resize: none;
+    flex-shrink: 0;
+}
+
+.infobox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+    gap: 2em;
+    flex-shrink: 1;
+}
+
+.info1{
+    font-family: 'Righteous', cursive;
+    border: 1p solid red;
+    font-size: 32px;
+}
+
+.info1 span{
+    color: red;
+}
+
+.info2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #9598A6;
+    font-family: 'Inter', sans-serif;
+}
+
+.info3{
+    background: #5E3BEF;
+    box-shadow: 2px 7px 4px rgba(0, 0, 0, 0.25);
+    padding: 1em 1em;
+
+}
+
+.info3 a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 4em 4em;
+    flex: 1;
+    gap: 4em;
+}
+
+.point1 , .point2 , .point3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 20px;
+    flex-wrap: wrap;
+    width: 28%;
+    font-family: 'Inter', sans-serif;
+
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    color: rebeccapurple;
+    border-radius: 10px;
+    font-weight: 400;
+    
+}
+
+.point1{
+    padding: 2em 2em;
+}
+
+.point2{
+    padding: 2em 2em;
+}
+
+.point3{
+    padding: 2.4em 2em;
+
+}
+
+
+.socials{
+    width: 100%;
+    height: fit-content;
+    background-color: #1E1E1E;
+}
+
+.j1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+    height: auto;
+    padding: 4em 4em;
+    gap: 2em;
+}
+
+.jimage{
+    width: fit-content;
+    height: fit-content;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.jimage img{
+    width: 90%;
+    border-radius: 10px;
+    
+}
+
+.j1info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    height: 200%;
+    font-size: 25px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 1em 2em;
+    flex-direction: row;
+}
+
+.socialheading {
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    width: 25%;
+    gap: 1em;
+}
+
+.socialheading h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.subheadsocial{
+    background-color: yellow;
+    padding: 1em 1em;
+    border-radius: 4px;
+}
+.subheadsocial h1{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 29px;
+}
+
+.socialapps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 2em;
+    width: 50%;
+    height: fit-content;
+    
+}
+
+.socialapps ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.socialapps ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 0.5em 1em;
+    width: 60%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    gap: 2em;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.25);
+   
+}
+
+.socialapps ul li img{
+    width: 20%;
+}
+
+.socialitems a{
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 40px;
+    width: 50%
+}
+
+.s3 {
+    gap:;
+}
+
+.s1:hover{
+    box-shadow: 6px 10px 4px rgba(201, 56, 195, 0.85);
+    transition-duration: 0.5s;
+}
+
+.s2:hover {
+    box-shadow: 6px 10px 4px rgba(109, 62, 156, 0.85);
+    transition-duration: 0.5s;
+}
+
+.s3:hover{
+    box-shadow: 6px 10px 4px rgba(26, 137, 200, 0.85);
+    transition-duration: 0.5s;
+}
+
+.s4:hover{
+    box-shadow: 6px 10px 4px rgba(48, 190, 70, 0.85);
+    transition-duration: 0.5s;
+}
+
+@media all and (max-width: 800px) {
+    
+    nav{
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    
+    .navitems{
+        width: fit-content;
+
+        gap: 5em;
+    }
+
+    .navitems a{
+        color: red;
+    }
+
+    .box1{
+        flex-direction: column;
+        gap: 2em;
+    }    
+
+    .photobox{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .photobox img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .infobox{
+        width: fit-content;
+        align-items: center;
+    }
+
+    .info1{
+        font-size: 16px;
+    }
+
+    .info2{
+        font-size: 11px;
+    }
+
+    .points{
+        flex-direction: column;
+        gap: 1.5em;
+        font-size: 10px;
+    }
+
+    .point1 , .point2 , .point3 {
+        width: fit-content;
+        padding: 1.5em 1em;
+    }
+
+    .j1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .j1info{
+        width: fit-content;
+    }
+
+    .jimage{
+        width: 100%;
+    }
+
+
+
+    .socials{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .socialheading{
+        flex-direction: row;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .socialheading h1{
+        font-size: 25px;
+    }
+
+    .socialapps{
+        width: fit-content;
+    }
+
+    .socialapps ul{
+        width: fit-content;
+    }
+
+    .socialitems a{
+        font-size: 25px;
+    }
+
+    .socialapps ul li img{
+        width: 30%;
+    }
+
+    .socialapps ul li{
+        width: 100%;
+    }
+
+}
