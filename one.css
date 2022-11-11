@@ -60,6 +60,10 @@ nav{
     
 }
 
+.navitems a:hover{
+    border-bottom: #5E3BEF 5px solid;
+    transition-duration: 0.5s;
+}
 
 .box1{
     display: flex;
@@ -235,6 +239,12 @@ nav{
     color: white;
     height: 200%;
     font-size: 25px;
+}
+
+.j1info h1{
+    color: yellow;
+    font-weight: 600;
+    font-family: 'Acme', sans-serif;
 }
 
 .socials{
